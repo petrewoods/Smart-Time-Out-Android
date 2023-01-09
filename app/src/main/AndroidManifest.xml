@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartTimeOut"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Onboarding1"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Onboarding2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Onboarding3"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Onboarding4"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".OnboardingOptions"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".OptionViewQuietTime"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".OptionViewCalmingTime"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".OptionViewTimeOut"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".LearnMore"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".PraiseWhy"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Praise2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Praise3"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Praise4"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Praise5"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Chair1"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CheckChair"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".ChairChecklist"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".Chairspo1"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".Chairspo2"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".Chairspo3"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".ExplainTO1"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".SetupFinish"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".ExplainTO2"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".PrepareOption"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".Chair1Main"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".ChairChecklistMain"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".CheckChairMain"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".Chairspo1Main"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".Chairspo2Main"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".Chairspo3Main"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".PraiseWhyMain"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".Praise2Main"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".Praise3Main"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".Praise4Main"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".Praise5Main"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".PraiseWhy2Main"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".PraiseWhy3Main"
+            android:label="Smart Time Out" >
+        </activity>
+        <activity
+            android:name=".Timer1"
+            android:label="Smart Time Out" >
+        </activity>
+    </application>
+
+</manifest>
